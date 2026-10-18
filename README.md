@@ -2,7 +2,7 @@
 
 An interactive admin dashboard to track leads, quotations, deals, orders and revenue. Built with dummy data, no backend needed.
 
-**Live demo:** https://your-app.vercel.app
+**Live demo:** https://business-performance-and-revenue-an.vercel.app/
 
 ## Features
 
