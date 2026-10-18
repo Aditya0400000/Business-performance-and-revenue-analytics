@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+@theme {
+  --font-sans: 'Manrope', system-ui, sans-serif;
+  --color-ink: #11162b;
+  --color-canvas: #f3f5f8;
+  --color-teal: #0e7c86;
+  --color-gold: #c8a24a;
+  --color-rose: #d6455d;
+  --color-mist: #7c8db5;
+}
+body {
+  @apply bg-canvas text-ink font-sans antialiased;
+}
+@theme {
+  --font-display: 'Sora', 'Manrope', sans-serif;
+}
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+body {
+  font-variant-numeric: tabular-nums;
+}
+html {
+  scroll-behavior: smooth;
+}
+[id] {
+  scroll-margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+}
+body {
+  overflow-x: clip;
+}
